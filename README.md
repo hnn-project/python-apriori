@@ -11,10 +11,9 @@ Apriori Algorithm은 연관규칙 알고리즘(association rule learning)의 일
 * 가상환경(env) : 2.7
 * 참고링크 : https://github.com/asaini/Apriori
 
-## 실행예시
-'''
-python apriori.py -f tesco.csv -s 0.17 -c 0.68
-'''
+### 실행예시
+    python apriori.py -f tesco.csv -s 0.17 -c 0.68
+
 apriori.py 라는 파이선 코드와 tesco.csv 데이터 파일을 이용하여 지지도 0.17 및 신뢰도 0.68 이상의 데이터를 추출하는 명령어 입니다.  
 
 
