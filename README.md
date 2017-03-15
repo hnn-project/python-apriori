@@ -1,5 +1,29 @@
+# Python-apriori
+This repository is Apriori presentation materials and source code for hackfest in February 21-21, 2017.
+
+## Apriori Algorithm
+### Introduction to Apriori Algorithm
+The Apriori Algorithm is an association rule learning algorithm, which is an algorithm for finding a frequently selected item set.  
+
+### Development environment
+In this Hackfest, hackfest team used OSS that implemented Apriori algorithm in python.
+* Development Language: python
+* Virtual Environments (env): 2.7
+* Reference link: https://github.com/asaini/Apriori
+
+### Example of execution
+	Python apriori.py -f tesco.csv -s 0.17 -c 0.68
+
+This command extract data with a support of 0.17 and a confidence of 0.68 or higher by using the apiori.py code and the tesco.csv data.
+
+### Performance result
+![result](./images/result.PNG)
+  
+  
+***
+
 # python-apriori
-2017년 2월 21~23일간 진행된 호갱노노 Hackfest에서 발표한 Apriori 발표자료 및 소스코드를 제공합니다.
+2017년 2월 21~23일간 진행된 호갱노노 Hackfest에서 발표한 Apriori 발표자료 및 소스코드를 제공합니다.  
 
 ## Apriori Algorithm
 ### Apriori Algorithm 소개
@@ -18,5 +42,4 @@ apriori.py 라는 파이선 코드와 tesco.csv 데이터 파일을 이용하여
 
 ### 수행결과
 ![result](./images/result.PNG)
-
-
+ 
